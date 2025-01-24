@@ -7,7 +7,7 @@ document.getElementById("AkanForm").addEventListener("submit", function(event) {
   const day = parseInt(document.getElementById("Day").value);
   const month = parseInt(document.getElementById("Month").value);
   const year = parseInt(document.getElementById("year").value);
-  const gender = document.getElementById("gender").value;
+  const gender = document.querySelector('input[name="gender"]:checked').value;
 
   if (!isValidDate(day, month, year)) {
     alert("Please enter a valid date.");
@@ -44,4 +44,3 @@ function getAkanName(dayOfWeek, gender) {
     return femaleNames[dayOfWeek];
   }
 }
-
