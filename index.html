@@ -8,12 +8,16 @@
   </head>
   <body>
     <h1>AKAN NAME GENERATOR</h1>
-    <div class="Container"
+    <div class="Container">
     akan name generator
-    <div class="description"
+    <div class="description">
     Akan name are derived from ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
-    </div>
-        <form id="signup-form">
+        
+    <form id="AkanForm">onSubmit="calculateAkanName"(Event)>
+        <div class="form-group">
+          <label for="Day">Day</label>
+          <input type="Number" id="Day" min="1" max="31"required>
+        </div>
             <input type="number" id="year" placeholder="Year" required />
             <input type="number" id="month" placeholder="Month" required />
             <input type="number" id="day" placeholder="Day" required />
