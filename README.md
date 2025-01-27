@@ -22,11 +22,11 @@ Akan Name Generator is a web application that generates Akan names based on the 
 
 ## BDD (Behavior Driven Development)
 
-| Behavior           | Input                    | Output                             |
-| ------------------ | ------------------------ | ---------------------------------- |
-| Enter birth date   | User inputs `1990-01-01` | Displays `Monday`                  |
-| Select gender      | User selects `Male`      | Displays `Kwasi`                   |
-| Generate Akan name | Click `Generate` button  | Displays `Your Akan name is Kwasi` |
+| Behavior           | Input                    | Output                              |
+| ------------------ | ------------------------ | ----------------------------------- |
+| Enter birth date   | User inputs `2002-08-20` | Displays `Tuesday`                  |
+| Select gender      | User selects `Female`    | Displays `Abenaa`                   |
+| Generate Akan name | Click `Generate` button  | Displays `Your Akan name is Abenaa` |
 
 ## Technologies Used
 
@@ -43,6 +43,6 @@ For any inquiries or feedback, please contact:
 
 ## License and Copyright
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License.
 
 &copy; 2025 Purity
