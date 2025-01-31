@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="./css/nekesa.css" />
+  </head>
+  <body>
+    <h1>AKAN NAME GENERATOR</h1>
+    <div class="Container">
+    akan name generator
+    <div class="description">
+    Akan Name Generator is a web application that generates Akan names based on the user's birth date and gender. Akan names are derived from the Akan people of Ghana and are based on the day of the week a person is born.
+     <br>
+     <br>
+    <div class="Container">
+        <div class="row">
+      <div class="form-container">
+      <form id="AkanForm">
+        <div class="form-group">
+          <label for="Day">Day</label>
+          <input type="Number" id="Day" min="1" max="31"required>
+        </div>
+
+        <div class="form-group">
+          <label for="Month">Month</label>
+          <input type="Number" id="Month" min="1" max="12"required>
+        </div>
+
+        <div class="form-group">
+            <label for="Year">Year</label>
+            <input type="Number" id="year" min="1900" max="2025"required>
+        </div>
+
+       <div class="radio-group">
+         <label for="gender">Gender:</label>
+        <br>
+         <input type="radio" name="Male">male</input required>
+         <input type="radio" name="Female">female</input>
+         </div>
+          <br>
+         <button type="button" onclick="generateAkanName()">Generate Akan Name</button>
+    </form>
+
+    <div class="result" id="result"></div>
+      </div>
+
+    <script src="./scripts/index.js"></script>         
+  </body>
+</html>
